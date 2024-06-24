@@ -1,0 +1,22 @@
+"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+self["webpackHotUpdate_N_E"]("pages/index",{
+
+/***/ "./src/data/sections/services.json":
+/*!*****************************************!*\
+  !*** ./src/data/sections/services.json ***!
+  \*****************************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+module.exports = JSON.parse('{"title1":"Smart <span class=\\"mil-thin\\">Solutions</span>","title2":"For Modern <span class=\\"mil-thin\\">Living.</span>","subtitle":"Experience the future of living with our intelligent home and office automation services.","button":{"link":"/services","label":"What we do"},"items":[{"title":"Home Automation","text":"Command your home with asingle touch","link":"/services/service-1"},{"title":"Home Theatre","text":"Cinema magic, now convening in your house","link":"/services/service-2"},{"title":"Curtain Automation","text":"Effortless elegance with automated curtain control","link":"/services/service-3"},{"title":"Stairs Light <br>Automation","text":"Illuminate ","link":"/services/service-4"}]}');
+
+/***/ })
+
+});

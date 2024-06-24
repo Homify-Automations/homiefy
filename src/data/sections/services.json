@@ -1,31 +1,31 @@
 {
-    "title1": "Unique <span class=\"mil-thin\">Ideas</span>",
-    "title2": "For Your <span class=\"mil-thin\">Business.</span>",
-    "subtitle": "Professionals focused on helping your brand<br/> grow and move forward.",
-    "button": {
-        "link": "/services",
-        "label": "What we do"
+  "title1": "Smart <span class=\"mil-thin\">Solutions</span>",
+  "title2": "For Modern <span class=\"mil-thin\">Living.</span>",
+  "subtitle": "Experience the future of living with our intelligent home and office automation services.",
+  "button": {
+    "link": "/services",
+    "label": "What we do"
+  },
+  "items": [
+    {
+      "title": "Home Automation",
+      "text": "Command your home with asingle touch",
+      "link": "/services/service-1"
     },
-    "items": [
-        {
-            "title": "Branding and <br>Identity Design",
-            "text": "Our creative agency is a team of professionals focused on helping your brand grow.",
-            "link": "/services/service-1"
-        },
-        {
-            "title": "Website Design <br>and Development",
-            "text": "Our creative agency is a team of professionals focused on helping your brand grow.",
-            "link": "/services/service-2"
-        },
-        {
-            "title": "Advertising and <br>Marketing Campaigns",
-            "text": "Our creative agency is a team of professionals focused on helping your brand grow.",
-            "link": "/services/service-3"
-        },
-        {
-            "title": "Creative Consulting <br>and Development",
-            "text": "Our creative agency is a team of professionals focused on helping your brand grow.",
-            "link": "/services/service-4"
-        }
-    ]
+    {
+      "title": "Home Theatre",
+      "text": "Cinema magic, now convening in your house",
+      "link": "/services/service-2"
+    },
+    {
+      "title": "Curtain Automation",
+      "text": "Effortless elegance with automated curtain control",
+      "link": "/services/service-3"
+    },
+    {
+      "title": "Stairs Light <br>Automation",
+      "text": "Illuminate each step with smart light integration",
+      "link": "/services/service-4"
+    }
+  ]
 }
