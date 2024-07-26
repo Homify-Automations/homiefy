@@ -9,7 +9,7 @@
   "items": [
     {
       "title": "Home Automation",
-      "text": "Command your home with asingle touch",
+      "text": "Command your home with a single touch",
       "link": "/services/service-1"
     },
     {
@@ -26,6 +26,26 @@
       "title": "Stairs Light <br>Automation",
       "text": "Illuminate each step with smart light integration",
       "link": "/services/service-4"
+    },
+    {
+      "title": "Climate Control",
+      "text": "Smart climate solutions for ultimate comfort",
+      "link": "/services/service-5"
+    },
+    {
+      "title": "Security Systems",
+      "text": "Advanced security for peace of mind",
+      "link": "/services/service-6"
+    },
+    {
+      "title": "Voice Control",
+      "text": "Hands-free control with voice command",
+      "link": "/services/service-7"
+    },
+    {
+      "title": "Energy Management",
+      "text": "Optimize your energy usage efficiently",
+      "link": "/services/service-8"
     }
   ]
 }
