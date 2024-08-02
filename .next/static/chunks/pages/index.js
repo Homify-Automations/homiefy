@@ -4045,7 +4045,7 @@ eval(__webpack_require__.ts("__webpack_require__.r(__webpack_exports__);\n/* har
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 "use strict";
-module.exports = JSON.parse('{"image":{"url":"/img/photo/smart-application-tablet-placed-kitchen-desk-empty-house-automation-system-turning-light.jpg","alt":"img"},"avatar":{"image":"/img/faces/customers/2.jpg","alt":"Founder"},"title":"About <br/> <span class=\\"mil-thin\\">Us</span>","description":"<p>Welcome to Homeify Automation, where innovation meets comfort. Specializing in smart home and office solutions, we integrate cutting-edge technology to enhance convenience, security, and energy efficiency. From advanced surveillance systems to smart climate control, our tailored solutions transform spaces into intelligent environments..</p><p>At Homeify Automation, we prioritize personalized service, ensuring each project is meticulously planned and executed to meet your specific needs. Join us in embracing the future of intelligent living. Discover how our expertise can make your home or office more connected, efficient, and enjoyable.</p>","subtitle":"<span class=\\"mil-thin\\">Empower Your Environment <br/> </span> with Homeify Automation."}');
+module.exports = JSON.parse('{"image":{"url":"/img/photo/smart-application-tablet-placed-kitchen-desk-empty-house-automation-system-turning-light.jpg","alt":"img"},"avatar":{"image":"/img/faces/customers/2.jpg","alt":"Founder"},"title":"About <br/> <span class=\\"mil-thin\\">Us</span>","description":"<p>At Homeify Automations, we’re all about turning your home into a high-tech haven! Founded by Shivdeep, our adventure kicked off with Enthrall Automation in 2017. After mastering the art of automation and tackling some pretty cool tech challenges, we launched Homeify Automations in 2023. Now, we\'re here to sprinkle a little extra magic into your living space with our fresh and innovative take on home technology.</p>","subtitle":"<span class=\\"mil-thin\\">Empower Your Environment <br/> </span> with Homeify Automation."}');
 
 /***/ }),
 
@@ -4056,7 +4056,7 @@ module.exports = JSON.parse('{"image":{"url":"/img/photo/smart-application-table
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 "use strict";
-module.exports = JSON.parse('{"title":"Designing <span class=\\"mil-thin\\">a Better</span><br> World <span class=\\"mil-thin\\">Today</span>","description":"Welcome to our world of endless imagination and boundless creativity. Together, let\'s embark on a remarkable journey where dreams become tangible realities.","button1":{"link":"/services","label":"What we do"},"button2":{"link":"/projects","label":"View works"}}');
+module.exports = JSON.parse('{"title":"Live <span class=\\"mil-thin\\">Beyond the</span><br> Ordinary <span class=\\"mil-thin\\"></span>","description":"With the Premium Technology and Service of Homeify Automations, Unleash the Power of Smart Living.","button1":{"link":"/services","label":"What we do"},"button2":{"link":"/projects","label":"View works"}}');
 
 /***/ }),
 
