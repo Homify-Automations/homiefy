@@ -50,6 +50,18 @@ const AboutSection = () => {
               </div>
             </div>
           </div>
+          <div className="row">
+            <div className="col-12">
+              <h3
+                className="mil-up mil-mb-30"
+                dangerouslySetInnerHTML={{ __html: Data.ourStoryTitle }}
+              />
+              <div
+                className="mil-text mil-up"
+                dangerouslySetInnerHTML={{ __html: Data.ourStoryDescription }}
+              />
+            </div>
+          </div>
         </div>
       </section>
       {/* about end */}

@@ -1,15 +1,15 @@
 ---
 #preview details
-title: "Branding and Identity Design"
-preview_title: "Branding and <br>Identity Design"
-short: "Our creative agency is a team of professionals focused on helping your brand grow."
+title: "Smart Lighting"
+preview_title: "Smart and <br>Lighting"
+short: "Illuminate your home with cutting-edge, energy-efficient lighting solutions tailored to your lifestyle."
 
 #full details
-introTitle: Branding<br> and <span class="mil-thin">Identity Design</span>
+introTitle: Smart<br> and <span class="mil-thin">Efficient Lighting</span>
 
 description:
-  title: Your <span class="mil-thin">Approach</span> <br>and <span class="mil-thin">Work Specifics</span>
-  content: At our agency, we have a unique approach to web design and development. We believe in creating websites that not only look great but also perform well in terms of user experience, functionality, and search engine optimization.
+  title: Illuminate Your <span class="mil-thin">Home</span> <br>with <span class="mil-thin">Smart Lighting</span>
+  content: At Homeify Automations, we specialize in transforming homes with our innovative Smart Lighting solutions. Whether you're looking to create the perfect ambiance, reduce your energy consumption, or gain complete control over your home’s lighting, we have the perfect solution for you. Our Smart Lighting systems are designed to be intuitive, flexible, and easy to use, ensuring that your home is always lit to your exact preferences.
   button:
     link: /projects
     label: View works
