@@ -27,7 +27,6 @@ const Home1 = (props) => {
       <TeamSection />
       <TestimonialSlider />
       <PartnersSlider />
-      <LatestPostsSection posts={props.posts} />
     </Layouts>
   );
 };

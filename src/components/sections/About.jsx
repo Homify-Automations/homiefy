@@ -1,10 +1,11 @@
+import React from "react";
+import Link from "next/link";
 import Data from "@data/sections/about.json";
 import LinesIcon from "@layouts/svg-icons/Lines";
 
 const AboutSection = () => {
   return (
     <>
-      {/* about */}
       <section id="about">
         <div className="container mil-p-120-30">
           <div className="row justify-content-between align-items-center">
@@ -18,7 +19,6 @@ const AboutSection = () => {
                   className="mil-text mil-up mil-mb-30"
                   dangerouslySetInnerHTML={{ __html: Data.description }}
                 />
-
                 <div className="mil-about-quote">
                   <div className="mil-avatar mil-up">
                     <img src={Data.avatar.image} alt={Data.avatar.alt} />
@@ -52,19 +52,13 @@ const AboutSection = () => {
           </div>
           <div className="row">
             <div className="col-12">
-              <h3
-                className="mil-up mil-mb-30"
-                dangerouslySetInnerHTML={{ __html: Data.ourStoryTitle }}
-              />
-              <div
-                className="mil-text mil-up"
-                dangerouslySetInnerHTML={{ __html: Data.ourStoryDescription }}
-              />
+              <Link href="/about-us" className="mil-button mil-up mil-mb-30">
+                Read More
+              </Link>
             </div>
           </div>
         </div>
       </section>
-      {/* about end */}
     </>
   );
 };
