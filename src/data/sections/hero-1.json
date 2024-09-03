@@ -1,12 +1,12 @@
 {
-    "title": "Designing <span class=\"mil-thin\">a Better</span><br> World <span class=\"mil-thin\">Today</span>",
-    "description": "Welcome to our world of endless imagination and boundless creativity. Together, let's embark on a remarkable journey where dreams become tangible realities.",
-    "button1": {
-        "link": "/services",
-        "label": "What we do"
-    },
-    "button2": {
-        "link": "/projects",
-        "label": "View works"
-    }
+  "title": "Live <span class=\"mil-thin\">Beyond the</span><br> Ordinary <span class=\"mil-thin\"></span>",
+  "description": "With the Premium Technology and Service of Homeify Automations, Unleash the Power of Smart Living.",
+  "button1": {
+    "link": "/services",
+    "label": "What we do"
+  },
+  "button2": {
+    "link": "/projects",
+    "label": "View works"
+  }
 }
