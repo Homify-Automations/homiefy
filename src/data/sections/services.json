@@ -8,22 +8,22 @@
   },
   "items": [
     {
-      "title": "Home Automation",
-      "text": "Command your home with a single touch",
+      "title": "Smart and Efficient Lighting",
+      "text": "Illuminate Your Home with Smart Lighting",
       "link": "/services/service-1"
     },
     {
-      "title": "Home Theatre",
-      "text": "Cinema magic, now convening in your house",
+      "title": "Advanced Security Solutions",
+      "text": "Ensure your Peace of Mind",
       "link": "/services/service-2"
     },
     {
-      "title": "Curtain Automation",
-      "text": "Effortless elegance with automated curtain control",
+      "title": "Audio/Visual Entertainment Solutions",
+      "text": "Experience Immersive Entertainment with Our Advance Solution",
       "link": "/services/service-3"
     },
     {
-      "title": "Stairs Light <br>Automation",
+      "title": "Home Health and Wellness",
       "text": "Illuminate each step with smart light integration",
       "link": "/services/service-4"
     },

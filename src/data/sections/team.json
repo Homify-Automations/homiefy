@@ -14,14 +14,14 @@
       "role": "Founder",
       "social": [
         {
-          "icon": "fab fa-behance",
-          "link": "https://behance.com",
+          "icon": "fab fa-instagram",
+          "link": "https://www.instagram.com/shivdeep_rajawat/",
           "title": "behance"
         },
 
         {
-          "icon": "fab fa-twitter",
-          "link": "https://twitter.com",
+          "icon": "fab fa-linkedin",
+          "link": "https://www.linkedin.com/in/shivdeep-rajawat-85aa73134/",
           "title": "twitter"
         }
       ]
@@ -29,19 +29,19 @@
   ],
   "col2_items": [
     {
-      "image": "/img/faces/2.jpg",
+      "image": "/img/faces/2.jpeg",
       "name": "Jayesh Nagar",
       "role": "Co-Founder",
       "social": [
         {
-          "icon": "fab fa-behance",
-          "link": "https://behance.com",
+          "icon": "fab fa-instagram",
+          "link": "https://www.instagram.com/alphageek__/",
           "title": "behance"
         },
 
         {
-          "icon": "fab fa-twitter",
-          "link": "https://twitter.com",
+          "icon": "fab fa-linkedin",
+          "link": "https://www.linkedin.com/in/jayeshnagar/",
           "title": "twitter"
         }
       ]

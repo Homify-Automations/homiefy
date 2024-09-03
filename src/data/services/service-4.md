@@ -1,42 +1,38 @@
 ---
 #preview details
-title: "Creative Consulting Concept Development"
-preview_title: "Creative Consulting <br>Concept Development"
-short: "Our creative agency is a team of professionals focused on helping your brand grow."
+title: "Home Health and Wellness"
+preview_title: "Home Health <br>and Wellness"
+short: "Lead a healthy life every second in your home with our advanced health and wellness solutions."
 
 #full details
-introTitle: Creative <span class="mil-thin">Consulting</span><br> and <span class="mil-thin">Concept</span> Development
+introTitle: Lead a <span class="mil-thin">Healthy</span> Life <br> Every Second in Your <span class="mil-thin">Home</span>
 
 description:
-  title: Your <span class="mil-thin">Approach</span> <br>and <span class="mil-thin">Work Specifics</span>
-  content: At our agency, we have a unique approach to web design and development. We believe in creating websites that not only look great but also perform well in terms of user experience, functionality, and search engine optimization.
+  title: Your <span class="mil-thin">Health</span> <br> and <span class="mil-thin">Wellness</span> Solutions
+  content: At Homeify Automations, we believe that health is not just wealth; it’s everything. Our home health and wellness solutions are designed to help you lead a healthier life with advanced technology. From smart thermostats to air purifiers, we offer a range of products that enhance your living environment, ensuring your home is a sanctuary of health and comfort.
   button:
     link: /projects
     label: View works
 
 list:
   items:
-    - label: "UX Audits"
+    - label: "Smart Thermostats"
       value: "
-      <p>A UX audit is a service that evaluates the user experience (UX) of a website. It involves analyzing the website's design, functionality, and content to identify areas of improvement that can enhance the user's overall experience.</p>
-      <p>During a UX audit, a team of UX experts will conduct a thorough review of the website and provide a comprehensive report that outlines specific recommendations for improving the website's usability, accessibility, and overall user experience.</p>
-      <p>The audit may cover various aspects of the website, such as navigation, layout, visual design, content structure, and mobile responsiveness. The goal is to identify any pain points or obstacles that users may encounter while browsing the website and provide actionable recommendations to improve their experience.</p>
-      <p>In summary, a UX audit can help website owners identify areas of improvement that can enhance their website's user experience and increase user engagement and satisfaction.</p>
+      <p>Control your climate with precision for maximum comfort, ensuring that your home is always at the perfect temperature.</p>
       "
 
-    - label: "Design thinking"
+    - label: "Air Purifiers"
       value: "
-      <p>Design thinking is a problem-solving approach that emphasizes empathy, creativity, and collaboration. It involves understanding the needs and perspectives of users, identifying and defining the problem, generating multiple possible solutions, prototyping and testing those solutions, and iterating based on feedback.</p>
-      <p>Design thinking encourages a human-centered approach to innovation and is often used in fields such as product design, user experience (UX) design, and business strategy to create user-centric and innovative solutions. It promotes a mindset that embraces experimentation, iteration, and continuous learning throughout the design process.</p>
+      <p>Ensure a cleaner, healthier atmosphere with advanced air filtration systems that remove pollutants and allergens from your indoor air.</p>
       "
 
-    - label: "Wireframing"
+    - label: "Water Quality Monitors"
       value: "
-      <p>Wireframing is a vital step in web design where a visual representation of a website's structure is created. It focuses on layout and user experience, using basic shapes and lines to outline elements like headers, menus, and content sections. Wireframes establish the website's architecture and functionality, facilitating communication between designers, developers, and clients. They serve as a blueprint for user-friendly websites, setting the foundation for design and development.</p>
+      <p>Keep track of your water’s safety and purity in real-time, ensuring that you and your family are always consuming clean and safe water.</p>
       "
 
-    - label: "Methodologies"
+    - label: "Smart Cleaning"
       value: "
-      <p>Libero quam alias tempora facilis necessitatibus quis officiis voluptatem architecto harum exercitationem quidem illum eligendi. Veniam non vitae, nemo dolor tempora, necessitatibus enim sapiente quam voluptas architecto minima omnis sequi aperiam aliquam vel quo reprehenderit, tempore tenetur. Architecto dolorem assumenda voluptas, odio nemo vero illo praesentium pariatur, ut perspiciatis, est itaque minus ratione vitae laboriosam molestiae.</p>
+      <p>Simplify your cleaning tasks with automated, efficient technology that helps keep your home clean with minimal effort.</p>
       "
 ---

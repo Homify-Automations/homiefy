@@ -19,7 +19,7 @@ const DefaultFooter = ({ extraClass }) => {
                 </div>
 
                 <p className="mil-light-soft mil-up mil-mb-30">
-                  Subscribe our newsletter:
+                  Subscribe to our newsletter:
                 </p>
 
                 <form
@@ -30,7 +30,7 @@ const DefaultFooter = ({ extraClass }) => {
                 >
                   <input
                     type="email"
-                    placeholder="Enter our email"
+                    placeholder="Enter your email"
                     name="EMAIL"
                     required
                   />
@@ -52,9 +52,9 @@ const DefaultFooter = ({ extraClass }) => {
                           <li
                             key={`footer-menu-item-${key}`}
                             className={
-                              (asPath.indexOf(item.link) != -1 &&
-                                item.link != "/") ||
-                              asPath == item.link
+                              (asPath.indexOf(item.link) !== -1 &&
+                                item.link !== "/") ||
+                              asPath === item.link
                                 ? "mil-active mil-up"
                                 : "mil-up"
                             }
@@ -68,24 +68,22 @@ const DefaultFooter = ({ extraClass }) => {
                   <div className="col-md-6 col-lg-5">
                     <ul className="mil-menu-list mil-up mil-mb-60">
                       <li>
-                        <a href="#." className="mil-light-soft">
+                        <Link href="/privacypolicy" className="mil-light-soft">
                           Privacy Policy
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#." className="mil-light-soft">
-                          Terms and conditions
-                        </a>
+                        <Link
+                          href="/termsandcondition"
+                          className="mil-light-soft"
+                        >
+                          Terms and Conditions
+                        </Link>
                       </li>
                       <li>
-                        <a href="#." className="mil-light-soft">
+                        <Link href="/f&q" className="mil-light-soft">
                           F & Qs
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#." className="mil-light-soft">
-                          Careers
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -100,16 +98,8 @@ const DefaultFooter = ({ extraClass }) => {
                     <h6 className="mil-muted mil-up mil-mb-30">Lucknow</h6>
 
                     <p className="mil-light-soft mil-up">
-                      71 South Los Carneros Road, California{" "}
-                      <span className="mil-no-wrap">+51 174 705 812</span>
-                    </p>
-                  </div>
-                  <div className="col-md-6 col-lg-5 mil-mb-60">
-                    <h6 className="mil-muted mil-up mil-mb-30">Indore</h6>
-
-                    <p className="mil-light-soft mil-up">
-                      Leehove 40, 2678 MC De Lier, Netherlands{" "}
-                      <span className="mil-no-wrap">+31 174 705 811</span>
+                      D321, S-Square Bibhuti Khand, Gomti Nagar, Lucknow
+                      <span className="mil-no-wrap">+91 9518598093</span>
                     </p>
                   </div>
                 </div>
