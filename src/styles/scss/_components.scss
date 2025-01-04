@@ -649,25 +649,54 @@ banner
   & .container {
     height: 100%;
     display: flex;
-    align-items: flex-end;
+    flex-direction: column; // Stack elements vertically
   }
 
   & .mil-banner-content {
     width: 100%;
-    padding-bottom: 120px;
+    height: 100%; // Adjusted height
     position: relative;
 
-    @media screen and (max-width: 992px) {
-      padding-bottom: 90px;
-    }
+    display: flex;
+    flex-direction: column; // Stack elements within
+    justify-content: space-between; // Space top, middle, and bottom sections
+    padding: 20px; // Adjust for positioning
   }
 
-  & .mil-lines-place {
-    position: absolute;
-    left: 0;
-    bottom: calc(100% + 120px);
+  & .mil-title {
+    align-self: flex-start; // Keep title aligned to the top-left
+    margin-bottom: auto; 
+    margin-top: 100px;// Push middle content below
+  }
+
+  & .mil-middle-content {
+    display: flex;
+    flex-direction: column; // Stack description and buttons
+    align-self: flex-start; // Align content to the left
+    justify-content: center; // Center content vertically in available space
+    flex-grow: 1; // Allow it to occupy the middle portion
+    gap: 20px; // Add spacing between description and buttons
+  }
+
+  & .mil-bottom-content {
+    display: flex;
+    justify-content: space-between; // Align description to left and scroll button to right
+    align-items: flex-end; // Align content to the bottom
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  & .mil-description {
+    max-width: 60%;
+    color: black; // Adjust for a better layout
+  }
+
+  & .mil-scroll-button {
+    align-self: flex-end; // Place scroll button on the bottom-right
   }
 }
+
+
 
 .mil-inner-banner {
   & .mil-banner-content {
@@ -1090,75 +1119,40 @@ about
 
 .mil-about-quote {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
 
-  & .mil-avatar {
-    width: 90px;
-    height: 90px;
-    border-radius: 50%;
-    position: relative;
-
-    &:after {
-      content: ' " ';
-      color: $dark;
-      width: 30px;
-      height: 30px;
-      border-radius: 50%;
-      background-color: $accent;
-      position: absolute;
-      bottom: 0;
-      right: 0;
-      display: flex;
-      padding-top: 12px;
-      justify-content: center;
-      font-size: 36px;
-    }
-
-    & img {
-      border-radius: 50%;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      object-position: top;
-    }
-  }
-
-  & .mil-quote {
-    padding-left: 30px;
-    width: calc(100% - 90px);
+  .mil-quote {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 10px;
   }
 
   @media screen and (max-width: 992px) {
-    & .mil-avatar {
-      width: 70px;
-      height: 70px;
-
-      &:after {
-        padding-top: 7px;
-        width: 25px;
-        height: 25px;
-        font-size: 24px;
-      }
-    }
-
-    & .mil-quote {
+    .mil-quote {
       font-size: 16px;
-      padding-left: 30px;
-      width: calc(100% - 70px);
     }
   }
 }
 
-.mil-about-photo {
-  position: relative;
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-top: -50px; /* Shift content up slightly */
+}
 
-  & .mil-lines-place {
-    position: absolute;
-    top: -120px;
-    left: -27%;
+.row {
+  @media screen and (min-width: 992px) {
+    justify-content: flex-end; /* Align content to the right for larger screens */
+  }
+
+  @media screen and (max-width: 991px) {
+    justify-content: center; /* Center the content for smaller screens */
+    text-align: center; /* Center-align the text */
   }
 }
+
+
 
 /* -------------------------------------------
 
