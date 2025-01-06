@@ -1,88 +1,31 @@
-import React, { useEffect, useRef } from "react";
+import React from "react";
 import Layouts from "@layouts/Layouts";
 import Data from "@data/sections/about.json";
-import LinesIcon from "@layouts/svg-icons/Lines";
 
 const AboutUsPage = () => {
-  const leftContentRef = useRef(null);
-  const rightContentRef = useRef(null);
-
-  useEffect(() => {
-    const leftContent = leftContentRef.current;
-    const rightContent = rightContentRef.current;
-
-    const observerOptions = {
-      threshold: 0.1, // Trigger when 10% of the element is visible
-    };
-
-    const observerCallback = (entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          if (entry.target === leftContent) {
-            leftContent.classList.add("slide-in-left");
-            leftContent.classList.remove("slide-out-left");
-          } else if (entry.target === rightContent) {
-            rightContent.classList.add("slide-in-right");
-            rightContent.classList.remove("slide-out-right");
-          }
-        } else {
-          if (entry.target === leftContent) {
-            leftContent.classList.remove("slide-in-left");
-            leftContent.classList.add("slide-out-left");
-          } else if (entry.target === rightContent) {
-            rightContent.classList.remove("slide-in-right");
-            rightContent.classList.add("slide-out-right");
-          }
-        }
-      });
-    };
-
-    const observer = new IntersectionObserver(
-      observerCallback,
-      observerOptions
-    );
-
-    if (leftContent) observer.observe(leftContent);
-    if (rightContent) observer.observe(rightContent);
-
-    return () => {
-      if (leftContent) observer.unobserve(leftContent);
-      if (rightContent) observer.unobserve(rightContent);
-    };
-  }, []);
-
   return (
     <Layouts>
-      <section id="about-us" className="mil-p-120-30">
-        <div className="container">
-          <div className="row justify-content-between align-items-center">
-            {/* Image on the left side */}
-            <div ref={leftContentRef} className="col-lg-5 animated">
-              <div className="mil-about-photo mil-mb-90">
-                <div className="mil-lines-place">
-                  <LinesIcon />
-                </div>
-                <div className="mil-up mil-img-frame">
-                  <img
-                    src={Data.image.url}
-                    alt={Data.image.alt}
-                    className="mil-scale"
-                    data-value-1="1"
-                    data-value-2="1.2"
-                  />
-                </div>
-              </div>
-            </div>
+      <section id="about-us" style={{ position: "relative", overflow: "hidden", padding: "120px 30px" }}>
+        {/* Video Background */}
+        <div style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", overflow: "hidden", zIndex: 0 }}>
+          <video autoPlay muted loop style={{ width: "100%", height: "100%", objectFit: "cover" }}>
+            <source src="/videos/12.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
 
-            {/* Content on the right side */}
-            <div ref={rightContentRef} className="col-lg-6 col-xl-5 animated">
-              <div className="mil-mb-90">
+        {/* Content on top of the video */}
+        <div style={{ position: "relative", zIndex: 1 }} className="container">
+          <div className="row justify-content-center align-items-center text-center">
+            {/* Content */}
+            <div className="col-lg-8 col-xl-6">
+              <div style={{ marginBottom: "90px" }}>
                 <h3
-                  className="mil-up mil-mb-30"
+                  style={{ marginBottom: "30px" }}
                   dangerouslySetInnerHTML={{ __html: Data.ourStoryTitle }}
                 />
                 <div
-                  className="mil-text mil-up"
+                  className="mil-text"
                   dangerouslySetInnerHTML={{ __html: Data.ourStoryDescription }}
                 />
               </div>

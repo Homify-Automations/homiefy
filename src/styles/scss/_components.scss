@@ -663,11 +663,18 @@ banner
     padding: 20px; // Adjust for positioning
   }
 
-  & .mil-title {
-    align-self: flex-start; // Keep title aligned to the top-left
-    margin-bottom: auto; 
-    margin-top: 100px;// Push middle content below
+  .mil-title {
+    margin-top: 200px; /* Default margin for larger screens */
+    align-self: flex-start;
+    margin-bottom: auto;
   }
+  
+  @media screen and (max-width: 768px) {
+    .mil-title {
+      margin-top: 150px; /* Increased margin for smaller screens (mobile) */
+    }
+  }
+  
 
   & .mil-middle-content {
     display: flex;
@@ -686,10 +693,27 @@ banner
     margin-bottom: 40px;
   }
 
-  & .mil-description {
-    max-width: 60%;
-    color: black; // Adjust for a better layout
+  .mil-description {
+    font-size: 32px; /* Default font size for larger screens */
+    text-align: right;
+    color: black;
+    margin-top: 40px;
+    font-weight: 300;
   }
+  
+  @media screen and (max-width: 992px) {
+    .mil-description {
+      font-size: 50px; /* Smaller font size for medium screens */
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .mil-description {
+      font-size: 20px;
+      margin-top: 10px; /* Even smaller font size for smaller screens */
+    }
+  }
+  
 
   & .mil-scroll-button {
     align-self: flex-end; // Place scroll button on the bottom-right
@@ -890,18 +914,19 @@ lines
 
 ------------------------------------------- */
 @mixin move-animation {
-  from {
-    transform: translateY(-75px);
-  }
-
-  50% {
-    transform: translateY(75px);
-  }
-
-  to {
-    transform: translateY(-75px);
+  @keyframes move {
+    from {
+      transform: translateY(-75px);
+    }
+    50% {
+      transform: translateY(75px);
+    }
+    to {
+      transform: translateY(-75px);
+    }
   }
 }
+
 
 @keyframes move {
   @include move-animation;
@@ -1128,9 +1153,19 @@ about
     margin-top: 10px;
   }
 
+  .mil-button-container {
+    align-self: flex-end; /* Aligns the button to the bottom-right */
+    margin-top: 40px; /* Adjust spacing between subtitle and button */
+  }
+
   @media screen and (max-width: 992px) {
     .mil-quote {
       font-size: 16px;
+    }
+
+    /* Make sure the "Read More" button remains centered on smaller screens */
+    .mil-button-container {
+      align-self: center;
     }
   }
 }
@@ -1151,6 +1186,15 @@ about
     text-align: center; /* Center-align the text */
   }
 }
+.custom-margin {
+  margin-right: 140px; /* Default for all screens */
+
+  @media screen and (min-width: 768px) and (max-width: 1091px) {
+    margin-right: 200px; /* Medium screens (768px to 991px) */
+  }
+}
+
+
 
 
 

@@ -37,54 +37,60 @@ const HeroOne = () => {
         <div className="mil-gradient" />
 
         <div className="container">
-  <div className="mil-banner-content">
-    {/* Title */}
-    <h1
-      className="mil-title"
-      dangerouslySetInnerHTML={{ __html: Data.title }}
-      style={{
-        color: "black",
-        marginTop: "200px",
-      }}
-    />
+          <div className="mil-banner-content">
+            {/* Title */}
+            <div style={{ display: "flex", flexDirection: "column" }}>
+              <h1
+                className="mil-title"
+                dangerouslySetInnerHTML={{ __html: Data.title }}
+                style={{
+                  color: "black",
+                
+                }}
+              />
+              {/* Description */}
+              <p
+  className="mil-description"
+  dangerouslySetInnerHTML={{ __html: Data.description }}
+></p>
 
-    {/* Bottom Content */}
-    <div className="mil-bottom-content">
-      <div className="mil-description">
-        <p className="mil-mb-60">{Data.description}</p>
-        <Link
-          href={Data.button1.link}
-          className="mil-button mil-arrow-place mil-btn-space"
-        >
-          <span>{Data.button1.label}</span>
-          <ArrowIcon />
-        </Link>
-        <Link
-          href={Data.button2.link}
-          className="mil-link mil-muted mil-arrow-place"
-          style={{
-            color: "black",
-          }}
-        >
-          <span>{Data.button2.label}</span>
-          <ArrowIcon  />
-        </Link>
-      </div>
+            </div>
 
-      {/* Scroll Button */}
-      <div className="mil-scroll-button">
-        <a
-          href="#about"
-          className="mil-button mil-arrow-place mil-icon-button mil-arrow-down"
-          style={{ color: "black" }}
-        >
-          <ArrowIcon />
-        </a>
-      </div>
-    </div>
-  </div>
-</div>
+            {/* Bottom Content */}
+            <div className="mil-bottom-content">
+              <div className="mil-description">
+                <Link
+                  href={Data.button1.link}
+                  className="mil-button mil-arrow-place mil-btn-space"
+                >
+                  <span>{Data.button1.label}</span>
+                  <ArrowIcon />
+                </Link>
+                <Link
+                  href={Data.button2.link}
+                  className="mil-link mil-muted mil-arrow-place"
+                  style={{
+                    color: "black",
+                  }}
+                >
+                  <span>{Data.button2.label}</span>
+                  <ArrowIcon />
+                </Link>
+              </div>
 
+              {/* Scroll Button */}
+              <div className="mil-scroll-button">
+                <a
+                  href="#about"
+                  className="mil-button mil-arrow-place mil-icon-button mil-arrow-down"
+                  style={{ color: "black" }}
+                >
+                  <ArrowIcon />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
       {/* banner end */}
     </>
