@@ -6,11 +6,18 @@ import AppData from "@data/app.json";
 import ArrowIcon from "@layouts/svg-icons/Arrow";
 import Pentagon from "@layouts/pentagon/Index";
 
-const PageBannerDark = ({ pageTitle, breadTitle, anchorLabel, anchorLink }) => {
+const PageBannerDark = ({ 
+  pageTitle, 
+  breadTitle, 
+  anchorLabel, 
+  anchorLink, 
+  backgroundVideo, 
+  bannerHeight = "100vh" // Default height is full viewport
+}) => {
   const { asPath } = useRouter();
   let clearBreadTitle;
 
-  if ( breadTitle != undefined ) {
+  if (breadTitle != undefined) {
     clearBreadTitle = breadTitle;
   } else {
     const regex = /(<([^>]+)>)/gi;
@@ -24,38 +31,81 @@ const PageBannerDark = ({ pageTitle, breadTitle, anchorLabel, anchorLink }) => {
       <Head>
         <title>{headTitle}</title>
       </Head>
-      
+
       {/* banner */}
-      <div className="mil-inner-banner">
+      <div
+        className="mil-inner-banner"
+        style={{
+          position: "relative",
+          overflow: "hidden",
+          height: bannerHeight, // Set dynamic height
+        }}
+      >
+        {/* Background Video */}
+        {backgroundVideo && (
+          <video
+            className="mil-banner-video"
+            autoPlay
+            muted
+            loop
+            playsInline
+            style={{
+              position: "absolute",
+              top: 0,
+              left: 0,
+              width: "100%",
+              height: "100%",
+              objectFit: "cover",
+              zIndex: -1,
+            }}
+          >
+            <source src={backgroundVideo} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        )}
+
+        {/* Banner Content */}
         <div className="mi-invert-fix">
           <div className="mil-banner-content mil-up">
             <div className="mil-animation-frame">
-              <div className="mil-animation mil-position-4 mil-scale" data-value-1="6" data-value-2="1.4"><Pentagon /></div>
+              <div
+                className="mil-animation mil-position-4 mil-scale"
+                data-value-1="6"
+                data-value-2="1.4"
+              >
+                <Pentagon />
+              </div>
             </div>
             <div className="container">
               <ul className="mil-breadcrumbs mil-light mil-mb-60">
                 <li><Link href="/">Homepage</Link></li>
-                {asPath.indexOf('/blog/') != -1 &&
-                <li>
-                  <Link href="/blog">Blog</Link>
-                </li>
-                }
-                {asPath.indexOf('/projects/') != -1 &&
-                <li>
-                  <Link href="/projects">Projects</Link>
-                </li>
-                }
-                {asPath.indexOf('/services/') != -1 &&
-                <li>
-                  <Link href="/services">Services</Link>
-                </li>
-                }
-                <li><a dangerouslySetInnerHTML={{__html : clearBreadTitle}} /></li>
+                {asPath.indexOf('/blog/') != -1 && (
+                  <li>
+                    <Link href="/blog">Blog</Link>
+                  </li>
+                )}
+                {asPath.indexOf('/projects/') != -1 && (
+                  <li>
+                    <Link href="/projects">Projects</Link>
+                  </li>
+                )}
+                {asPath.indexOf('/services/') != -1 && (
+                  <li>
+                    <Link href="/services">Services</Link>
+                  </li>
+                )}
+                <li><a dangerouslySetInnerHTML={{ __html: clearBreadTitle }} /></li>
               </ul>
-              <h1 className="mil-muted mil-mb-60" dangerouslySetInnerHTML={{__html : pageTitle}} />
-              <a href={anchorLink} className="mil-link mil-accent mil-arrow-place mil-down-arrow">
-                  <span>{anchorLabel}</span>
-                  <ArrowIcon />
+              <h1
+                className="mil-muted mil-mb-60"
+                dangerouslySetInnerHTML={{ __html: pageTitle }}
+              />
+              <a
+                href={anchorLink}
+                className="mil-link mil-accent mil-arrow-place mil-down-arrow"
+              >
+                <span>{anchorLabel}</span>
+                <ArrowIcon />
               </a>
             </div>
           </div>
@@ -65,4 +115,5 @@ const PageBannerDark = ({ pageTitle, breadTitle, anchorLabel, anchorLink }) => {
     </>
   );
 };
+
 export default PageBannerDark;
