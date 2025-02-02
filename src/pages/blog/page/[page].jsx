@@ -66,33 +66,32 @@ export async function getStaticPaths() {
     }
 }
 
-export async function getStaticProps( { params } ) {
-    const page = Number(params?.page) || 1
-    const { posts, total } = getPaginatedPostsData( PER_PAGE, page );
-    const categoriesData = await getSortedCategoriesData()
-  
-    if (!posts.length) {
+export async function getStaticProps({ params }) {
+  const page = Number(params?.page) || 1;
+  const { posts, total } = getPaginatedPostsData(PER_PAGE, page);
+  const categoriesData = await getSortedCategoriesData();
+
+  if (!posts.length) {
       return {
-        notFound: true,
-      }
-    }
-  
-    if (page === 1) {
+          notFound: true,
+      };
+  }
+
+  if (page === 1) {
       return {
-        redirect: {
-          destination: '/blog',
-          permanent: false,
-        },
-      }
-    }
-  
-    return {
+          redirect: {
+              destination: "/blog",
+              permanent: false,
+          },
+      };
+  }
+
+  return {
       props: {
-        posts,
-        totalPosts: total,
-        currentPage: page,
-        categories: categoriesData
+          posts,
+          totalPosts: total,
+          currentPage: page,
+          categories: categoriesData,
       },
-      revalidate: 60 * 60 * 24, // <--- ISR cache: once a day
-    }
+  };
 }
