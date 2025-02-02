@@ -14,6 +14,8 @@ description:
     link: /projects
     label: View works
 
+backgroundVideo: "/videos/4.mp4"
+
 list:
   items:
     - label: "Smart Doorbells"

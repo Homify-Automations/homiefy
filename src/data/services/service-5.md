@@ -35,4 +35,6 @@ list:
       value: "
       <p>Achieve reliable, high-speed internet across your entire home, providing a stable and consistent connection for all your devices.</p>
       "
+
+backgroundVideo: "/videos/4.mp4"
 ---

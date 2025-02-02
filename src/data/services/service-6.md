@@ -2,23 +2,24 @@
 #preview details
 title: "Voice Control/Virtual Assistant"
 preview_title: "Voice Control/ <br>Virtual Assistant"
-short: "Allow your human speech to be the go-to solution for managing your home’s systems effortlessly."
+short: "Allow your human speech to be the go-to solution for managing your home's systems effortlessly."
 
 #full details
 introTitle: Voice Control/ <span class="mil-thin">Virtual</span> <br> Assistant
 
 description:
   title: Your <span class="mil-thin">Voice</span> <br> and <span class="mil-thin">Virtual</span> Assistant Solutions
-  content: Experience a new level of home efficiency and convenience with our voice control and virtual assistant solutions. Our technology allows you to manage your home’s systems effortlessly using voice commands, seamlessly integrating multiple devices and services through a single virtual assistant. Customize commands to fit your preferences and automate routines, making daily tasks simpler and more efficient.
+  content: Experience a new level of home efficiency and convenience with our voice control and virtual assistant solutions. Our technology allows you to manage your home's systems effortlessly using voice commands, seamlessly integrating multiple devices and services through a single virtual assistant. Customize commands to fit your preferences and automate routines, making daily tasks simpler and more efficient.
   button:
     link: /projects
     label: View works
+  backgroundVideo: "/videos/4.mp4"
 
 list:
   items:
     - label: "Hands-Free Operation"
       value: "
-      <p>Manage your home’s systems effortlessly with voice commands, allowing for hands-free operation and greater convenience in daily activities.</p>
+      <p>Manage your home's systems effortlessly with voice commands, allowing for hands-free operation and greater convenience in daily activities.</p>
       "
 
     - label: "Seamless Integration"

@@ -50,4 +50,6 @@ list:
       value: "
       <p>Pick your audio/visual system to fit your specific needs and preferences, ensuring a tailored entertainment experience just for you.</p>
       "
+
+backgroundVideo: "/videos/4.mp4"
 ---

@@ -9,7 +9,7 @@ introTitle: Lead a <span class="mil-thin">Healthy</span> Life <br> Every Second 
 
 description:
   title: Your <span class="mil-thin">Health</span> <br> and <span class="mil-thin">Wellness</span> Solutions
-  content: At Homeify Automations, we believe that health is not just wealth; it’s everything. Our home health and wellness solutions are designed to help you lead a healthier life with advanced technology. From smart thermostats to air purifiers, we offer a range of products that enhance your living environment, ensuring your home is a sanctuary of health and comfort.
+  content: At Homeify Automations, we believe that health is not just wealth; it's everything. Our home health and wellness solutions are designed to help you lead a healthier life with advanced technology. From smart thermostats to air purifiers, we offer a range of products that enhance your living environment, ensuring your home is a sanctuary of health and comfort.
   button:
     link: /projects
     label: View works
@@ -28,11 +28,13 @@ list:
 
     - label: "Water Quality Monitors"
       value: "
-      <p>Keep track of your water’s safety and purity in real-time, ensuring that you and your family are always consuming clean and safe water.</p>
+      <p>Keep track of your water's safety and purity in real-time, ensuring that you and your family are always consuming clean and safe water.</p>
       "
 
     - label: "Smart Cleaning"
       value: "
       <p>Simplify your cleaning tasks with automated, efficient technology that helps keep your home clean with minimal effort.</p>
       "
+
+backgroundVideo: "/videos/4.mp4"
 ---
