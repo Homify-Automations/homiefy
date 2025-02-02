@@ -74,7 +74,7 @@ const DefaultFooter = ({ extraClass }) => {
                       </li>
                       <li>
                         <Link
-                          href="/termsandcondition"
+                          href="/termsandconditions"
                           className="mil-light-soft"
                         >
                           Terms and Conditions
