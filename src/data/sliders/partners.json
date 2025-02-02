@@ -5,15 +5,31 @@
       "alt": "logo"
     },
     {
+      "image": "/img/partners/godrej.png",
+      "alt": "logo"
+    },
+    {
+      "image": "/img/partners/yale.avif",
+      "alt": "logo"
+    },
+    {
       "image": "/img/partners/jbl.svg",
       "alt": "logo"
     },
     {
-      "image": "/img/partners/yale.svg",
+      "image": "/img/partners/yamaha.svg",
       "alt": "logo"
     },
     {
       "image": "/img/partners/zemote.png",
+      "alt": "logo"
+    },
+    {
+      "image": "/img/partners/portonics.avif",
+      "alt": "logo"
+    },
+    {
+      "image": "/img/partners/hikvision.png",
       "alt": "logo"
     }
   ]

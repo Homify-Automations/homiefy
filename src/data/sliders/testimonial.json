@@ -3,22 +3,46 @@
     "subtitle": "Customer reviews are a valuable source <br>of information for both businesses and consumers.",
     "items": [
         {
-            "name": "Paul Trueman",
+            "name": "Pooja Mehta",
             "image": "/img/customers/1.jpg",
-            "role": "Eqanta app",
-            "text": "Working with Courtney Davis as our UI designer was an absolute pleasure. Her attention to detail and creative approach brought our vision to life. The user interface she designed exceeded our expectations, and we received positive feedback from our clients. Highly recommended!"
+            "role": "Homeify Automation",
+            "text": "Homeify Automation is best in its field. They’re perfect in their work, best service & best response. Dedication towards referrals & work so hard to close the referrals."
         },
         {
-            "name": "Olivia Oldman",
+            "name": "Akash Vaishampayan",
             "image": "/img/customers/2.jpg",
-            "role": "Eqanta app",
-            "text": "I had the opportunity to collaborate with Courtney, and I must say she is incredibly talented. Her ability to understand our brand and translate it into a interface was impressive. Courtney's designs were intuitive, and enhanced the overall user experience. I look forward to working with her again!"
+            "role": "Homeify Automation",
+            "text": "During our interaction, they mentioned one of their products that dramatically eases water storage solutions in the household. I immediately placed an order, and their team swiftly installed it the very next day! I recommend this for every household using a water pumping system for their terrace water tank."
         },
         {
-            "name": "Oscar Newman",
+            "name": "Shalvi Bansal",
             "image": "/img/customers/3.jpg",
-            "role": "Eqanta app",
-            "text": "Courtney Davis is an exceptional UI designer. She has a keen eye for aesthetics and understands how to create interfaces. Courtney's designs greatly improved the usability of our application, and we couldn't be happier with the results. Highly skilled and reliable!"
+            "role": "Homeify Automation",
+            "text": "Our experience with Homeify Automation was remarkable. Their expertise in integrating smart solutions seamlessly into our home enhanced both comfort and efficiency. From intuitive lighting systems to automated security features, they tailored the setup to our lifestyle. The result is a modern, connected living space that exceeds our expectations. I enthusiastically recommend Homeify for smart living."
+        },
+        {
+            "name": "Shantanu Dhanuka",
+            "image": "/img/customers/4.jpg",
+            "role": "Homeify Automation",
+            "text": "I've had the pleasure of working with Homeify Automation on our home automation project for our water pump, and it has been an exceptional experience. Their expertise and dedication were evident throughout. Under their guidance, our water pump system transformed into a smart and efficient solution. The automation not only simplified our lives but also improved efficiency and control over our water supply. Homeify’s attention to detail and in-depth knowledge of home automation were truly impressive."
+        },
+        {
+            "name": "Surbhi Wadhwani",
+            "image": "/img/customers/5.jpg",
+            "role": "Homeify Automation",
+            "text": "I am Dr. Surbhi Wadhwani from Dr. Smile. The daily hassle of switching on the pump for filling the overhead tank was a pain. Homeify Automation suggested an automation solution that not only solved my problem but also prevents unnecessary damage to the water pump when underground tank levels are low. I highly recommend Homeify Automation for their expertise in automation."
+        },
+        {
+            "name": "Priyanka Bhatia",
+            "image": "/img/customers/6.jpg",
+            "role": "Homeify Automation",
+            "text": "Homeify Automation is one of the finest in their field of home automation. I passed them a referral, and the person I referred was extremely satisfied. This gave me a sense of confidence and credibility for Homeify Automation. Thanks a lot, Homeify!"
+        },
+        {
+            "name": "Sumit Bohare",
+            "image": "/img/customers/7.jpg",
+            "role": "Homeify Automation",
+            "text": "If you want real automation for your house done professionally, I recommend Homeify Automation. If you require any type of home automation, please contact Homeify Automation. Thank you!"
         }
     ]
 }
